@@ -1,15 +1,16 @@
 function addInCartMessage(title, price) {
     let productName = title;
-    
     let productPrice = price;
     
     let message = productName;
     
-    let text = 'за';
+    let text = "за";
     
-    let text2 = 'теперь в корзине';
+    let text2 = "теперь в корзине";
+
+    let string1 = message + " " + text + " " + productPrice + text2;
     
-    console.log(message+" "+text+" "+ productPrice + " " + text2);
+    console.log(string1);
     
 
 
@@ -17,6 +18,7 @@ function addInCartMessage(title, price) {
 
     // создайте переменную message
     // присвойте переменной message значение переменной productName
+
     // добавьте в конец переменной message пробел
     // добавьте в конец переменной message текст 'за'
     // добавьте в конец переменной message пробел
